@@ -1,0 +1,17 @@
+EXPORTS
+    QueryCoolFilter
+    FilterUnderstandsFormat
+    GetSuggestedSampleType
+    OpenFilterInput
+    FilterGetFileSize
+    ReadFilterInput
+    CloseFilterInput
+    FilterOptions
+    FilterOptionsString
+    OpenFilterOutput
+    CloseFilterOutput
+    WriteFilterOutput
+    FilterGetOptions
+    FilterWriteSpecialData
+    FilterGetFirstSpecialData
+    FilterGetNextSpecialData
