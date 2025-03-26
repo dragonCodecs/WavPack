@@ -7,7 +7,7 @@ project(
 	version: '5.6.2',
 	license: 'BSD-3-Clause',
 	default_options: [
-		'c_std=c99',
+		'c_std=gnu99',
 		'warning_level=1',
 	],
 	meson_version: '>=0.60',
@@ -209,7 +209,7 @@ if enable_asm
 					output: 'unpack_x86.masm',
 					copy: true,
 				),
-				
+
 			]
 		elif cpu == 'x86_64'
 			wavpack_srcs += [
@@ -223,7 +223,7 @@ if enable_asm
 					output: 'unpack_x64.masm',
 					copy: true,
 				),
-				
+
 			]
 		endif
 	elif asm_enabled
