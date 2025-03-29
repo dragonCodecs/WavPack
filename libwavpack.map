@@ -73,5 +73,6 @@
   WavpackUpdateNumSamples;
   WavpackVerifySingleBlock;
   WavpackWriteTag;
- local: *
+ local:
+  *;
 };
